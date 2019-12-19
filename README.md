@@ -9,12 +9,12 @@ This repository contains 2 python programs tovsolver_k2_v2.py and unit_conversio
     - 3 Columns: Pressure (MeV/fm^3) | Central Energy Density (MeV/fm^3) | Baryon Density (1/fm^3)
   - **Initial Central Energy Density (e0) and Number of Stars (N):**
     - solves TOV Equation for e0 += 10 N times
-    - For the program to behave properly e0 must be in the right range of values (typically between 100 and 3000 MeV/fm^3)
+    - For the program to behave properly e0 must be in the right range of values (typically between 100 and 2500 MeV/fm^3)
     - Examples:  
       - APR: e0 = 150, N = 150
       - SLY: e0 = 200, N = 110
 
-Once the computations are complete, the user has the options to plot any two values from: 
+Once the computations are complete, the user can plot any two values from the options listed below. This is an interactive plot that allows the user to click any point on the curve to output all computed values as well as the Mass/Radius curve for the single star at that position. 
   - Mass
   - Radius
   - Apsidal Constant (k2 or the 2nd Love Number)
@@ -23,6 +23,5 @@ Once the computations are complete, the user has the options to plot any two val
   - Central Energy Density
   - Tidal Polarizability (lambda)
 
-For any given plot, the user can click on the curve to output all computed values as well as the Mass/Radius Profile for the single star at that position. 
 
 **unit_conversion.py** 
