@@ -24,7 +24,9 @@ Once the computations are complete, the user can plot any two values from the op
   - Tidal Polarizability (lambda)
 
 
-**unit_conversion.py --** Of the EoS files provided above, only APR (eosaapr.dat) and SLY (eossly.dat) are in the correct format. The rest have 4 Columns: Central Energy Density (g/cc) | Pressure (dynes/cm^2) | Enthalpy | Baryon Density (1/cm^3), which are not compatible with **tovsolver_k2_v2.py**. 
+**unit_conversion.py --** of the EoS files provided above, only APR (eosaapr.dat) and SLY (eossly.dat) are in the correct format. 
+
+The rest have 4 Columns: Central Energy Density (g/cc) | Pressure (dynes/cm^2) | Enthalpy | Baryon Density (1/cm^3), which are not compatible with **tovsolver_k2_v2.py**. 
 
 These EoS's can thus be entered into **unit_conversion.py** to output an array with the correct format and units.
 
