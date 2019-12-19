@@ -2,7 +2,7 @@
 
 This repository contains 2 python programs tovsolver_k2_v2.py and unit_conversion.py, as well as several Equations of States (EoS) for neutron stars. 
 
-**tovsolver_k2_v2.py** solves the Tolmann-Oppenheimer-Volkoff (TOV) Equation using the RK4 Method for a spectrum of stars for a given EoS. 
+**tovsolver_k2_v2.py --** solves the Tolmann-Oppenheimer-Volkoff (TOV) Equation using the RK4 Method for a spectrum of stars for a given EoS. 
 
 **Inputs:**
   - **EoS file (.dat):**
@@ -24,4 +24,8 @@ Once the computations are complete, the user can plot any two values from the op
   - Tidal Polarizability (lambda)
 
 
-**unit_conversion.py** 
+**unit_conversion.py --** Of the EoS files provided above, only APR (eosaapr.dat) and SLY (eossly.dat) are in the correct format. The rest have 4 Columns: Central Energy Density (g/cc) | Pressure (dynes/cm^2) | Enthalpy | Baryon Density (1/cm^3), which are not compatible with **tovsolver_k2_v2.py**. 
+
+These EoS's can thus be entered into **unit_conversion.py** to output an array with the correct format and units.
+
+
