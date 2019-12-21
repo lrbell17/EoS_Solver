@@ -14,7 +14,7 @@ This repository contains 2 python programs tovsolver_k2_v2.py and unit_conversio
       - APR: e0 = 150, N = 150
       - SLY: e0 = 200, N = 110
 
-Once the computations are complete, the user can plot any two values from the options listed below. This is an interactive plot that allows the user to click any point on the curve to output all computed values as well as the Mass/Radius curve for the single star at that position. 
+**Outputs:** the user can plot any two values from the options listed below. This is an interactive plot that allows the user to click any point on the curve to output all computed values as well as the Mass/Radius curve for the single star at that position. 
   - Mass
   - Radius
   - Apsidal Constant (k2 or the 2nd Love Number)
