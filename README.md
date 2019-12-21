@@ -23,6 +23,7 @@ This repository contains 2 python programs tovsolver_k2_v2.py and unit_conversio
   - Central Energy Density
   - Tidal Polarizability (lambda)
 
+Additionally, the user has the option to export all computed values for further use as a .txt file with columns above. 
 
 **unit_conversion.py --** of the EoS files provided above, only APR (eosaapr.dat) and SLY (eossly.dat) are in the correct format. 
 
