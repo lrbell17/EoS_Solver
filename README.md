@@ -5,7 +5,7 @@ This repository contains 2 python programs tovsolver_k2_v2.py and unit_conversio
 **tovsolver_k2_v2.py --** solves the Tolmann-Oppenheimer-Volkoff (TOV) Equation using the RK4 Method for a spectrum of stars for a given EoS. 
 
 **Inputs:**
-  - **EoS file (.dat):**
+  - **EoS file (.dat):** make sure this is saved in the same folder as **tovsolver_k2_v2.py --**
     - 3 Columns: Pressure (MeV/fm^3) | Central Energy Density (MeV/fm^3) | Baryon Density (1/fm^3)
   - **Initial Central Energy Density (e0) and Number of Stars (N):**
     - solves TOV Equation for e0 += 10 N times
