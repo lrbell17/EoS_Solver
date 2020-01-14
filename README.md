@@ -8,8 +8,8 @@ This repository contains 2 python programs tovsolver_k2_v2.py and unit_conversio
   - **EoS file (.dat):** 
     - 3 Columns: Pressure (MeV/fm^3) | Central Energy Density (MeV/fm^3) | Baryon Density (1/fm^3)
     - Make sure .dat file is saved in the same folder as **tovsolver_k2_v2.py**
-  - **Initial Central Energy Density (e0) and Number of Stars (N):**
-    - solves TOV Equation for e0 += 10 N times
+  - **Central Energy Density (e0) and Number of Stars (N):**
+    - solves TOV Equation N times for e0 += 10
     - For the program to behave properly e0 must be in the right range of values (typically between 100 and 2500 MeV/fm^3). Please note that these values will differ depending on the EoS.
     - Examples:  
       - APR: e0 = 150, N = 150
